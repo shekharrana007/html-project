@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.logo img{
+    width: 100px;
+    border: 3px white;
+    border-radius: 50px;
+}
+
+.navbar {
+    display:flex;
+}
+
+.nav-list {
+    width: 75%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list li {
+    padding: 26px 30px;
+}
+
+.nav-list li a:hover{
+    background-color: rgb(227, 237, 237);
+}
+.rightnav{
+   
+    width: 25%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px white;
+    border-radius: 7px;
+}
+.background{
+    background-color: black;
+    background-size: cover;
+    background-blend-mode: darken;   
+} 
+.box-main{
+    display: flex;
+    background-image: url("img/project.jpg");
+    justify-content: space-around;
+    align-items: center;
+    color: black; 
+}
+.firsthalf{
+    display: flex; 
+    
+}
+.secondhalf{
+    display: flex;
+}
+.thirdhalf{
+    display:flex;
+}
+.fouthhalf{
+    display: flex;
+
+}
+.container1{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+#club1{
+    font-size: 30px;
+    font-weight: 100;
+    list-style-type: none;
+}
+.container2{
+    border: 1px solid red;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: large; 
+    background-image: url("img/she.jpg ");
+    background-size: 85%;
+}
+.container3{
+    border: 1px solid green;
+}
+.h1{
+    
+    padding-left: 360px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(170, 96, 56);
+}
+p{
+    
+    background-color: rgb(237, 228, 189);
+}
